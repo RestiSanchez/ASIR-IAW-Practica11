@@ -71,9 +71,9 @@ cd /home/ubuntu/
 wget https://downloads.wordpress.org/plugin/wp-super-cache.1.7.1.zip
 wget https://downloads.wordpress.org/plugin/jetpack.9.3.1.zip
 
-wp plugin install wp-super-cache.1.7.1.zip --allow-root --force --patch=/var/www/html/
+wp plugin install wp-super-cache.1.7.1.zip --allow-root --activate --force --path=/var/www/html/
 
-wp plugin install jetpack.9.3.1.zip --allow-root --force --patch=/var/www/html/
+wp plugin install jetpack.9.3.1.zip --allow-root --force --activate --path=/var/www/html/
 
 
 # Actualizamos los plugins
@@ -87,6 +87,3 @@ wp plugin install jetpack.9.3.1.zip --allow-root --force --patch=/var/www/html/
 # Actualizamos el core de wordpress
 
 #wp core update --allow-root
-
-
-
