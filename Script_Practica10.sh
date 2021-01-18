@@ -32,7 +32,7 @@ BD_NOMBRE=wpiaw
 BD_USUARIO=resti
 IP_FRONT=localhost
 BD_PASS=root
-URL=http://34.229.179.16
+URL=http://
 # Configuración de base de datos
 
 mysql -u root <<< "DROP DATABASE IF EXISTS $BD_NOMBRE;"
@@ -87,3 +87,6 @@ wp plugin install jetpack.9.3.1.zip --allow-root --force --activate --path=/var/
 # Actualizamos el core de wordpress
 
 #wp core update --allow-root
+
+
+
